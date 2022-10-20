@@ -1,17 +1,73 @@
 {
-	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
-		{
-			"path": "pages/index/index",
-			"style": {
-				"navigationBarTitleText": "uni-app"
-			}
-		}
-	],
-	"globalStyle": {
-		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
-	},
-	"uniIdRouter": {}
+  "pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+
+    {
+      "path": "pages/home/home",
+      "style": {
+        "enablePullDownRefresh": false,
+        "navigationStyle": "custom"
+      }
+
+    }, {
+      "path": "pages/gun/gun",
+      "style": {
+        "navigationBarTitleText": "机枪AI池",
+        "enablePullDownRefresh": false
+      }
+
+    }, {
+      "path": "pages/buy/buy",
+      "style": {
+        "navigationBarTitleText": "0元购",
+        "enablePullDownRefresh": false
+      }
+
+    }, {
+      "path": "pages/task/task",
+      "style": {
+        "navigationBarTitleText": "发布任务",
+        "enablePullDownRefresh": false
+      }
+
+    }, {
+      "path": "pages/my/my",
+      "style": {
+        "navigationBarTitleText": "我的",
+        "enablePullDownRefresh": false
+      }
+
+    }
+  ],
+  "tabBar": {
+    "selectedColor": "#c00000",
+    "list": [{
+        "text": "首页",
+        "pagePath": "pages/home/home"
+      },
+      {
+        "text": "机枪AI池",
+        "pagePath": "pages/gun/gun"
+      },
+      {
+        "text": "0元购",
+        "pagePath": "pages/buy/buy"
+      },
+      {
+        "text": "发布任务",
+        "pagePath": "pages/task/task"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/my/my"
+      }
+    ]
+
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "摩诃",
+    "navigationBarBackgroundColor": "#c00000",
+    "backgroundColor": "#F8F8F8"
+  },
+  "uniIdRouter": {}
 }

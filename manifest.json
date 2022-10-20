@@ -53,7 +53,8 @@
     "appid": "wxa3859e5e68c69a4d",
     "setting": {
       "urlCheck": false,
-      "minified": true
+      "minified": true,
+      "postcss": true
     },
     "usingComponents": true
   },
